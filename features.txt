@@ -1,0 +1,36 @@
+movx = Movment on X coordinate
+movy = Movment on Y coordinate
+
+Wall #:
+Default solid tile
+
+Entry @:
+Sets the begin for every level
+
+Exit &:
+Sets the exit for every level
+
+Fire $:
+Resets the player to the beginning
+
+Bounce =:
+Lets the player bounce from a solid tile 
+(movx -> -movx; movy -> -movy)
+
+Boost %:
+A non solid tile that gives the player a
+50% boost on movx and movy on collision every
+second
+
+BounceBoost +:
+Combines Bounce with Boost
+
+Ice ~:
+The player has no friction on this tile and is unable
+to jump from here
+
+Mirror Right \:
+Converts every 0.1 second on collision movx -> movy and movy -> movx
+
+Mirror Left /:
+Same as right bug converts movx -> -movy and movy -> -movy

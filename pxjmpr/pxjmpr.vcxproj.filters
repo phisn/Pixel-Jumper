@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{41633cf8-c6a0-4310-b5fc-1dddb27d3aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Framework">
+      <UniqueIdentifier>{9fa1a278-3edb-4c08-8179-8b08e66b93b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Game">
+      <UniqueIdentifier>{e4b4cd2e-32f1-428a-99f4-2a36960a24e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Game\Elements">
+      <UniqueIdentifier>{89195815-812a-4eb1-8293-188f3d870245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Game\Level">
+      <UniqueIdentifier>{276ccb25-f87b-4d04-99b4-8ae8401acf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Game\Player">
+      <UniqueIdentifier>{fa9b7057-e27f-455e-9d81-1658bf33db01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Game\Elements\Common">
+      <UniqueIdentifier>{c3a521fe-825c-4e62-9d16-c3878d140e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Game\Elements\Uncommon">
+      <UniqueIdentifier>{d3958d59-6dc9-4620-9531-b4a32087c107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Input.cpp">
+      <Filter>source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Timer.cpp">
+      <Filter>source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Window.cpp">
+      <Filter>source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Map.cpp">
+      <Filter>source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Direct2D.cpp">
+      <Filter>source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelLoader.cpp">
+      <Filter>source\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level.cpp">
+      <Filter>source\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>source\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Wall.cpp">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Rectangle.cpp">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Border.cpp">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Entry.cpp">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Fire.cpp">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Factory.cpp">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Bounce.cpp">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Boost.cpp">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\BounceBoost.cpp">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Exit.cpp">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Text.cpp">
+      <Filter>source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Character.cpp">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ScoreBoard.cpp">
+      <Filter>source\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Ice.cpp">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Elements\Mirror.cpp">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Input.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Timer.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Window.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Map.h">
+      <Filter>source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Direct2D.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ComPtr.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ID2Object.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\IResource.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelLoader.h">
+      <Filter>source\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level.h">
+      <Filter>source\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerContainer.h">
+      <Filter>source\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>source\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Wall.h">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Rectangle.h">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Border.h">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Entry.h">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Exit.h">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Fire.h">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Factory.h">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Collision.h">
+      <Filter>source\Game\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Bounce.h">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Boost.h">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\BounceBoost.h">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Text.h">
+      <Filter>source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Character.h">
+      <Filter>source\Game\Elements\Uncommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Ice.h">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Elements\Mirror.h">
+      <Filter>source\Game\Elements\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ScoreBoard.h">
+      <Filter>source\Game\Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
